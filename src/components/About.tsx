@@ -4,10 +4,10 @@ import { useIntersection } from '@/hooks/useIntersection';
 import React from 'react';
 
 export default function About() {
-  const intersection = useIntersection<HTMLElement>();
+  const refs = useIntersection<HTMLDivElement>();
 
   return (
-    <span ref={intersection} id="about" className="text-paragraph text-center">
+    <span ref={refs} id="about" className="text-paragraph text-center">
       Link는
       <strong>
         '미래의 창업가를 <span className="text-link-purple">연결</span>하다'
