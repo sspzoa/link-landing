@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Onboarding() {
   return (
-    <div className="bg-[url('/images/background.png')] h-screen flex justify-center items-center px-[100px]">
+    <div className="bg-[url('/images/background.png')] h-screen flex justify-center items-center px-[24px]">
       <div className="max-w-[1200px] w-full flex flex-row gap-[30px] items-center">
         <Image src="/link-logo/logo-text.svg" alt="linkLogo" width={222} height={97} />
         <hr className="bg-link-white w-full h-[3px] rounded-full" />
