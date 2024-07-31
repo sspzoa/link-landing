@@ -1,10 +1,16 @@
+'use client';
+
+import { useIntersection } from '@/hooks/useIntersection';
+
 import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Clubs() {
+  const spanIntersection = useIntersection<HTMLSpanElement>();
+  const divIntersection = useIntersection<HTMLDivElement>();
   return (
-    <div className="flex flex-col gap-[32px] py-[160px]">
-      <span className="text-paragraph text-center">
+    <div className="flex flex-col gap-[32px]">
+      <span ref={spanIntersection} className="text-paragraph text-center">
         <strong className="text-link-purple">2024년 Link</strong>는
         <strong>
           한국디지털미디어고등학교, 선린인터넷고등학교, 미림여자정보과학고등학교,
@@ -20,7 +26,7 @@ export default function Clubs() {
           </div>
         </Link>
       </div>
-      <div className="flex flex-row gap-[60px]">
+      <div ref={divIntersection} className="flex flex-row gap-[60px]">
         <Image src="/club-logo/LUNA.svg" alt="luna" width={60} height={60} />
         <Image src="/club-logo/implude.svg" alt="luna" width={60} height={60} />
         <Image src="/club-logo/crevice.svg" alt="luna" width={60} height={60} />

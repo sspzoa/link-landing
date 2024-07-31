@@ -28,7 +28,7 @@ export default function Navbar() {
 
   return (
     <div
-      className={`fixed top-0 w-full flex items-center justify-center p-[24px] transition-all duration-300 backdrop-blur-[5px] ${
+      className={`z-10 fixed top-0 w-full flex items-center justify-center p-[24px] transition-all duration-300 backdrop-blur-[5px] ${
         isScrolled ? 'bg-link-white100' : 'bg-gray200'
       }`}>
       <div className="w-full flex flex-row justify-between items-center max-w-[1200px]">

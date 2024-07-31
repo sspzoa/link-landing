@@ -1,9 +1,16 @@
+'use client';
+
+import { useIntersection } from '@/hooks/useIntersection';
+import React from 'react';
+
 export default function About() {
+  const intersection = useIntersection<HTMLElement>();
+
   return (
-    <span id="about" className="text-paragraph py-[160px] text-center">
+    <span ref={intersection} id="about" className="text-paragraph text-center">
       Link는
       <strong>
-        ‘미래의 창업가를 <span className="text-link-purple">연결</span>하다’
+        '미래의 창업가를 <span className="text-link-purple">연결</span>하다'
       </strong>
       라는 비전으로 만들어진 고등학생 단체로, 전국에 있는 다양한 고등학교의 IT 프로젝트 및
       <br />
