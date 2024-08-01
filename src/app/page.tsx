@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full">
       <Onboarding />
-      <div className="flex flex-col justify-center items-center px-[24px] py-[100px] md:py-[200px] gap-[200px] md:gap-[300px]">
+      <div className="flex flex-col justify-center items-center px-[24px] py-[200px] gap-[200px] md:gap-[300px]">
         <About />
         <Clubs />
         <Information />

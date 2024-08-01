@@ -14,7 +14,7 @@ export default function Previous() {
   return (
     <div
       id="previous"
-      className="flex flex-col py-[160px] w-full max-w-[1200px] justify-center items-center gap-[60px]">
+      className="flex flex-col py-[160px] w-full max-w-[1000px] justify-center items-center gap-[120px]">
       <div className="flex flex-col gap-[15px] md:gap-[45px] justify-center items-center">
         <span ref={refs[0]} className="text-description text-gray500">
           Link Demo Day
@@ -37,7 +37,7 @@ export default function Previous() {
               시간을 보낼 수 있었습니다.
             </span>
           </div>
-          <Image className="rounded-[32px] shadow-2xl" src="/images/link.jpeg" alt="link" width={560} height={320} />
+          <Image className="rounded-[32px] shadow-2xl" src="/images/link.jpeg" alt="link" width={500} height={320} />
         </div>
         <div ref={refs[3]} className="w-full flex flex-col gap-[25px] md:flex-row md:items-center justify-between">
           <div className="flex flex-col gap-[25px]">
@@ -52,7 +52,7 @@ export default function Previous() {
               서로의 활동을 공유하였습니다.
             </span>
           </div>
-          <Image className="rounded-[32px] shadow-2xl" src="/images/club.jpeg" alt="club" width={560} height={320} />
+          <Image className="rounded-[32px] shadow-2xl" src="/images/club.jpeg" alt="club" width={500} height={320} />
         </div>
         <div ref={refs[4]} className="w-full flex flex-col gap-[25px] md:flex-row md:items-center justify-between">
           <div className="flex flex-col gap-[25px]">
@@ -69,7 +69,7 @@ export default function Previous() {
             className="rounded-[32px] shadow-2xl"
             src="/images/speaker.jpeg"
             alt="speaker"
-            width={560}
+            width={500}
             height={320}
           />
         </div>
