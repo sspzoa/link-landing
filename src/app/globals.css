@@ -31,20 +31,20 @@ html, body {
   --link-purple: #5941F5;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --gray1000: rgba(25, 23, 38, 0.1);
-    --gray900: rgba(25, 23, 38, 0.2);
-    --gray800: rgba(25, 23, 38, 0.3);
-    --gray700: rgba(25, 23, 38, 0.4);
-    --gray600: rgba(25, 23, 38, 0.5);
-    --gray500: rgba(25, 23, 38, 0.6);
-    --gray400: rgba(25, 23, 38, 0.7);
-    --gray300: rgba(25, 23, 38, 0.8);
-    --gray200: rgba(25, 23, 38, 0.9);
-    --gray100: rgb(25, 23, 38);
-  }
-}
+/*@media (prefers-color-scheme: dark) {*/
+/*  :root {*/
+/*    --gray1000: rgba(25, 23, 38, 0.1);*/
+/*    --gray900: rgba(25, 23, 38, 0.2);*/
+/*    --gray800: rgba(25, 23, 38, 0.3);*/
+/*    --gray700: rgba(25, 23, 38, 0.4);*/
+/*    --gray600: rgba(25, 23, 38, 0.5);*/
+/*    --gray500: rgba(25, 23, 38, 0.6);*/
+/*    --gray400: rgba(25, 23, 38, 0.7);*/
+/*    --gray300: rgba(25, 23, 38, 0.8);*/
+/*    --gray200: rgba(25, 23, 38, 0.9);*/
+/*    --gray100: rgb(25, 23, 38);*/
+/*  }*/
+/*}*/
 
 .text-title {
   font-size: 50px;
