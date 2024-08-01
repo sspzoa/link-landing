@@ -29,6 +29,7 @@ export default function RootLayout({
       <head>
         <meta name="theme-color" content="#5941F5" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#5941F5" />
+        <meta property="og:image" content="/images/background.png" />
       </head>
       <body className={suit.className}>
         <Navbar />
