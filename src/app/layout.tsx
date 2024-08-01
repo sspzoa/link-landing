@@ -29,7 +29,7 @@ export default function RootLayout({
       <head>
         <meta name="theme-color" content="#5941F5" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#5941F5" />
-        <meta property="og:image" content="url(/images/background.png)" />
+        <meta property="og:image" content="https://link.sspzoa.io/images/banner.png" />
       </head>
       <body className={suit.className}>
         <Navbar />
