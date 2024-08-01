@@ -40,7 +40,7 @@ export default function Navbar() {
             height={24}
           />
         </Link>
-        <div className="flex flex-row gap-[10px] md:gap-[45px]">
+        <div className="flex flex-row w-full justify-around md:w-auto md:gap-[45px]">
           <Link href="#about" className={linkClass}>
             About Link
           </Link>
