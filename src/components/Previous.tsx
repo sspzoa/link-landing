@@ -15,7 +15,7 @@ export default function Previous() {
     <div
       id="previous"
       className="flex flex-col py-[160px] w-full max-w-[1200px] justify-center items-center gap-[60px]">
-      <div className="flex flex-col gap-[45px] justify-center items-center">
+      <div className="flex flex-col gap-[15px] md:gap-[45px] justify-center items-center">
         <span ref={refs[0]} className="text-description text-gray500">
           Link Demo Day
         </span>
@@ -23,8 +23,8 @@ export default function Previous() {
           지난 행사
         </span>
       </div>
-      <div className="w-full flex flex-col items-center gap-[120px]">
-        <div ref={refs[2]} className="w-full flex flex-row items-center justify-between">
+      <div className="w-full flex flex-col items-center gap-[80px] md:gap-[120px]">
+        <div ref={refs[2]} className="w-full flex flex-col gap-[25px] md:flex-row md:items-center justify-between">
           <div className="flex flex-col gap-[25px]">
             <span className="text-header">
               미래의 창업가를 <span className="text-link-purple">연결</span>하다
@@ -37,9 +37,9 @@ export default function Previous() {
               시간을 보낼 수 있었습니다.
             </span>
           </div>
-          <Image className="rounded-[48px] shadow-2xl" src="/images/link.jpeg" alt="link" width={560} height={320} />
+          <Image className="rounded-[32px] shadow-2xl" src="/images/link.jpeg" alt="link" width={560} height={320} />
         </div>
-        <div ref={refs[3]} className="w-full flex flex-row items-center justify-between">
+        <div ref={refs[3]} className="w-full flex flex-col gap-[25px] md:flex-row md:items-center justify-between">
           <div className="flex flex-col gap-[25px]">
             <span className="text-header">
               다양한 동아리의 <span className="text-link-purple">만남</span>
@@ -52,9 +52,9 @@ export default function Previous() {
               서로의 활동을 공유하였습니다.
             </span>
           </div>
-          <Image className="rounded-[48px] shadow-2xl" src="/images/club.jpeg" alt="club" width={560} height={320} />
+          <Image className="rounded-[32px] shadow-2xl" src="/images/club.jpeg" alt="club" width={560} height={320} />
         </div>
-        <div ref={refs[4]} className="w-full flex flex-row items-center justify-between">
+        <div ref={refs[4]} className="w-full flex flex-col gap-[25px] md:flex-row md:items-center justify-between">
           <div className="flex flex-col gap-[25px]">
             <span className="text-header">
               창업가 졸업생을 <span className="text-link-purple">만나다</span>
@@ -66,7 +66,7 @@ export default function Previous() {
             </span>
           </div>
           <Image
-            className="rounded-[48px] shadow-2xl"
+            className="rounded-[32px] shadow-2xl"
             src="/images/speaker.jpeg"
             alt="speaker"
             width={560}

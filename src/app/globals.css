@@ -93,3 +93,29 @@ html, body {
   line-height: normal;
   letter-spacing: -0.6px;
 }
+
+@media (max-width: 768px) {
+  .text-title {
+    font-size: 30px;
+  }
+
+  .text-header {
+    font-size: 25px;
+  }
+
+  .text-description {
+    font-size: 20px;
+  }
+
+  .text-paragraph {
+    font-size: 18px;
+  }
+
+  .text-subtext {
+    font-size: 15px;
+  }
+
+  .text-item {
+    font-size: 15px;
+  }
+}
