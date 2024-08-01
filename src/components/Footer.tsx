@@ -19,12 +19,12 @@ export default function Footer() {
               <FontAwesomeIcon icon={faInstagram} className="w-[32px] h-[32px] text-link-white" />
             </Link>
           </div>
+          <span className="text-item text-link-white text-center">Copyright © 2024 Link All rights reserved.</span>
           <span className="text-item text-link-white text-center">
-            Refreshed by{' '}
+            Developed by{' '}
             <Link href="https://github.com/sspzoa" target="_blank" rel="noreferrer">
               sspzoa
             </Link>{' '}
-            <br className="block md:hidden" />/ Copyright © 2024 LUNA All rights reserved.
           </span>
         </div>
       </div>
