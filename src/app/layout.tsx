@@ -30,6 +30,8 @@ export default function RootLayout({
         <meta name="theme-color" content="#5941F5" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#5941F5" />
         <meta property="og:image" content="https://link.sspzoa.io/images/banner.png" />
+        <link href="/link-logo/light-mode-favicon.svg" rel="icon" media="(prefers-color-scheme: light)" />
+        <link href="/link-logo/dark-mode-favicon.svg" rel="icon" media="(prefers-color-scheme: dark)" />
       </head>
       <body className={suit.className}>
         <Navbar />

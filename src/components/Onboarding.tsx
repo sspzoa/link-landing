@@ -7,15 +7,15 @@ export default function Onboarding() {
       <div className="max-w-[1200px] w-full flex flex-col items-start md:items-center md:flex-row gap-[30px] ">
         <Image className="hidden md:block" src="/link-logo/logo-text.svg" alt="linkLogo" width={222} height={97} />
         <Image className="block md:hidden" src="/link-logo/logo-text.svg" alt="linkLogo" width={148} height={65} />
-        <hr className="bg-link-white w-full h-[3px] rounded-full" />
+        <hr className="bg-[#f9f8fe] w-full h-[3px] rounded-full" />
         <div className="flex flex-col gap-[30px] md:gap-[40px] items-start md:items-end">
-          <span className="text-nowrap text-left md:text-right text-title text-link-white">
+          <span className="text-nowrap text-left md:text-right text-title text-[#f9f8fe]">
             미래의 창업가를
             <br />
             연결하다
           </span>
           <Link href="#apply">
-            <div className="px-[40px] py-[12px] rounded-full border border-gray200 bg-link-white text-item">
+            <div className="px-[40px] py-[12px] rounded-full border border-[#19172633] bg-[#f9f8fe] text-item text-[#191726]">
               Demo Day 신청하기
             </div>
           </Link>

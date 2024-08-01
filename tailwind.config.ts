@@ -21,7 +21,6 @@ const config: Config = {
         gray1000: 'var(--gray1000)',
         'link-white': 'var(--link-white)',
         'link-white100': 'var(--link-white100)',
-        'link-semi': 'var(--link-semi)',
         'link-purple': 'var(--link-purple)',
       },
       backgroundImage: {
