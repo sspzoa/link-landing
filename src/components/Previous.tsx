@@ -14,7 +14,7 @@ export default function Previous() {
   return (
     <div
       id="previous"
-      className="flex flex-col py-[160px] w-full max-w-[1000px] justify-center items-center gap-[120px]">
+      className="flex flex-col py-[160px] w-full max-w-[1000px] justify-center items-center gap-[80px] md:gap-[120px]">
       <div className="flex flex-col gap-[15px] md:gap-[45px] justify-center items-center">
         <span ref={refs[0]} className="text-description text-gray500">
           Link Demo Day
