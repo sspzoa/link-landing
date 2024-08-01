@@ -23,7 +23,7 @@ export default function Footer() {
             <Link href="https://github.com/sspzoa" target="_blank" rel="noreferrer">
               sspzoa
             </Link>{' '}
-            / Copyright © 2024 LUNA All rights reserved.
+            <br className="block md:hidden" />/ Copyright © 2024 LUNA All rights reserved.
           </span>
         </div>
       </div>
