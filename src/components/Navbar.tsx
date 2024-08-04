@@ -29,9 +29,9 @@ export default function Navbar() {
   return (
     <div
       className={`z-10 fixed top-0 w-full flex items-center justify-center p-[24px] transition-all duration-300 backdrop-blur-[5px] ${
-        isScrolled ? 'bg-link-white100' : 'bg-[#19112633]'
+        isScrolled ? 'bg-link-white100' : 'bg-[#f9f8fe1a]'
       }`}>
-      <div className="w-full flex flex-col md:flex-row justify-between items-center max-w-[1200px] gap-[15px]">
+      <div className="w-full flex flex-col md:flex-row justify-between items-center max-w-[1400px] gap-[15px]">
         <Link href="/">
           <Image
             className="dark:hidden"
