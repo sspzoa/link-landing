@@ -25,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="ko">
       <head>
         <meta name="theme-color" content="#5941F5" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#5941F5" />
