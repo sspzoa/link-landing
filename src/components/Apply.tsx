@@ -19,7 +19,7 @@ export default function Apply() {
         <br />
         <strong className="text-link-purple font-[800]">Link</strong>와 함께하세요!
       </span>
-      <Link href="https://sspzoa.io" target="_blank" rel="noreferrer">
+      <Link href="#" onClick={() => alert('준비 중입니다.')}>
         <div ref={refs[2]} className="px-[40px] py-[12px] rounded-full border border-gray200 bg-link-white text-item">
           Demo Day 신청하기
         </div>

@@ -23,7 +23,7 @@ export default function Clubs() {
         와 함께합니다.
       </span>
       <div className="flex justify-center items-center">
-        <Link href="https://sspzoa.io" target="_blank" rel="noreferrer">
+        <Link href="#" onClick={() => alert('준비 중입니다.')}>
           <div ref={refs[1]} className="px-[40px] py-[12px] rounded-full border border-gray200 bg-link-white text-item">
             추가 모집중
           </div>
