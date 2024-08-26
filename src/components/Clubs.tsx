@@ -23,7 +23,10 @@ export default function Clubs() {
         와 함께합니다.
       </span>
       <div className="flex justify-center items-center">
-        <Link href="#" onClick={() => alert('준비 중입니다.')}>
+        <Link
+          href="https://docs.google.com/forms/d/e/1FAIpQLSe2eLgLzZA0Za2OHMpinIu4ng1ODZJFPxQd2F0RWxXgT3_8jw/viewform?usp=sf_link"
+          target="_blank"
+          rel="noreferrer">
           <div ref={refs[1]} className="px-[40px] py-[12px] rounded-full border border-gray200 bg-link-white text-item">
             추가 모집중
           </div>
