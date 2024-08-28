@@ -10,7 +10,7 @@ export default function Apply() {
     useIntersection<HTMLDivElement>(),
   ];
   return (
-    <div id="apply" className="flex flex-col justify-center items-center gap-[30px]">
+    <div id="apply" className="flex flex-col justify-center items-center gap-[30px] py-[150px]">
       <span ref={refs[0]} className="text-description text-gray500">
         미래의 창업가를 연결하다, <strong>Link</strong>
       </span>

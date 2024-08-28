@@ -14,7 +14,9 @@ export default function Schedule() {
   ];
 
   return (
-    <div id="schedule" className="flex flex-col gap-[60px] w-full max-w-[1000px] justify-center items-center">
+    <div
+      id="schedule"
+      className="flex flex-col gap-[60px] w-full max-w-[1000px] justify-center items-center py-[150px]">
       <span ref={headerRef} className="text-header">
         행사 일정
       </span>

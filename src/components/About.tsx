@@ -7,7 +7,7 @@ export default function About() {
   const refs = useIntersection<HTMLDivElement>();
 
   return (
-    <span ref={refs} id="about" className="text-paragraph text-center">
+    <span ref={refs} id="about" className="text-paragraph text-center py-[150px]">
       Link는
       <strong>
         '미래의 창업가를 <span className="text-link-purple">연결</span>하다'

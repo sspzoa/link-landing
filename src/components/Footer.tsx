@@ -12,7 +12,7 @@ export default function Footer() {
         <Image className="hidden dark:block" src="/link-logo/logo-full-dark.svg" alt="link" width={120} height={40} />
         <div className="flex flex-col items-center md:items-end gap-[16px]">
           <div className="flex flex-row gap-[16px]">
-            <Link href="mailto:me@sspzoa.io">
+            <Link href="mailto:conatact@link-circle.com">
               <FontAwesomeIcon icon={faEnvelope} className="w-[32px] h-[32px] text-link-white" />
             </Link>
             <Link href="https://www.instagram.com/link.abroad/ " target="_blank" rel="noreferrer">

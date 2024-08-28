@@ -17,7 +17,7 @@ export default function Information() {
   ];
 
   return (
-    <div id="information" className="flex flex-col gap-[60px] justify-center items-center">
+    <div id="information" className="flex flex-col gap-[60px] justify-center items-center py-[150px]">
       <div className="flex flex-col gap-[15px] md:gap-[45px] justify-center items-center">
         <span ref={refs[0]} className="text-description text-gray500">
           Link Demo Day

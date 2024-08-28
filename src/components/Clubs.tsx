@@ -13,7 +13,7 @@ export default function Clubs() {
     useIntersection<HTMLDivElement>(),
   ];
   return (
-    <div className="flex flex-col gap-[32px]">
+    <div className="flex flex-col gap-[32px] py-[150px]">
       <span ref={refs[0]} className="text-paragraph text-center">
         <strong className="text-link-purple">2024년 Link</strong>는{' '}
         <strong>
