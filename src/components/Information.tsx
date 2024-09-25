@@ -60,8 +60,7 @@ export default function Information() {
             </td>
             <td className="align-top">
               <span ref={refs[8]} className="text-gray1000 text-paragraph">
-                {/*<strong>프론트원 (FRONT1) 5층 박병원홀 (서울특별시 마포구 마포대로 122)</strong>*/}
-                <strong>미정</strong>
+                <strong>프론트원 (FRONT1) 5층 박병원홀 (서울특별시 마포구 마포대로 122)</strong>
               </span>
             </td>
           </tr>

@@ -24,7 +24,7 @@ export default function Navbar() {
     };
   }, []);
 
-  const linkClass = `text-item ${isScrolled ? 'text-gray1000' : 'text-[#f9f8fe]'} transition-colors duration-300`;
+  const linkClass = `text-item ${isScrolled ? 'text-gray1000' : 'text-[#f9f8fe]'} ease-in-out duration-500 hover:opacity-50`;
 
   return (
     <div

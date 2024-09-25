@@ -18,38 +18,37 @@ export default function Clubs() {
         <strong className="text-link-purple">2024년 Link</strong>는{' '}
         <strong>
           한국디지털미디어고등학교, 선린인터넷고등학교, 미림여자정보과학고등학교,
-          <br className="hidden md:block" /> 단국대학교 부속 소프트웨어고등학교 외 8곳 고등학교, 10개의 동아리
+          <br className="hidden md:block" /> 단국대학교 부속 소프트웨어고등학교 외 8곳 고등학교, 9개의 동아리
         </strong>
         와 함께합니다.
       </span>
       <div className="flex justify-center items-center">
         <Link
+          className="ease-in-out duration-500 hover:opacity-50"
           href="https://docs.google.com/forms/d/e/1FAIpQLSe2eLgLzZA0Za2OHMpinIu4ng1ODZJFPxQd2F0RWxXgT3_8jw/viewform?usp=sf_link"
           target="_blank"
-          rel="noreferrer">
+          rel="noreferrer noopener">
           <div ref={refs[1]} className="px-[40px] py-[12px] rounded-full border border-gray200 bg-link-white text-item">
-            추가 모집중
+            Link 연합 동아리 신청하기
           </div>
         </Link>
       </div>
-      {/*<div ref={refs[2]} className="flex flex-row gap-[30px] md:gap-[60px] flex-wrap justify-center">*/}
-      {/*  <Image className="hidden md:block" src="/club-logo/LUNA.svg" alt="luna" width={60} height={60} />*/}
-      {/*  <Image className="hidden md:block" src="/club-logo/implude.svg" alt="luna" width={60} height={60} />*/}
-      {/*  <Image className="hidden md:block" src="/club-logo/crevice.svg" alt="luna" width={60} height={60} />*/}
-      {/*  <Image className="hidden md:block" src="/club-logo/edcan.svg" alt="luna" width={60} height={60} />*/}
-      {/*  <Image className="hidden md:block" src="/club-logo/applepie.svg" alt="luna" width={60} height={60} />*/}
-      {/*  <Image className="hidden md:block" src="/club-logo/seda.svg" alt="luna" width={60} height={60} />*/}
-      {/*  <Image className="hidden md:block" src="/club-logo/miven.svg" alt="luna" width={60} height={60} />*/}
-      {/*  <Image className="hidden md:block" src="/club-logo/noid.svg" alt="luna" width={60} height={60} />*/}
-      {/*  <Image className="block md:hidden" src="/club-logo/LUNA.svg" alt="luna" width={50} height={50} />*/}
-      {/*  <Image className="block md:hidden" src="/club-logo/implude.svg" alt="luna" width={50} height={50} />*/}
-      {/*  <Image className="block md:hidden" src="/club-logo/crevice.svg" alt="luna" width={50} height={50} />*/}
-      {/*  <Image className="block md:hidden" src="/club-logo/edcan.svg" alt="luna" width={50} height={50} />*/}
-      {/*  <Image className="block md:hidden" src="/club-logo/applepie.svg" alt="luna" width={50} height={50} />*/}
-      {/*  <Image className="block md:hidden" src="/club-logo/seda.svg" alt="luna" width={50} height={50} />*/}
-      {/*  <Image className="block md:hidden" src="/club-logo/miven.svg" alt="luna" width={50} height={50} />*/}
-      {/*  <Image className="block md:hidden" src="/club-logo/noid.svg" alt="luna" width={50} height={50} />*/}
-      {/*</div>*/}
+      <div ref={refs[2]} className="flex flex-row gap-[30px] md:gap-[60px] flex-wrap justify-center">
+        <Image className="hidden md:block" src="/club-logo/LUNA.svg" alt="luna" width={60} height={60} />
+        <Image className="block md:hidden" src="/club-logo/LUNA.svg" alt="luna" width={50} height={50} />
+        <Image className="hidden md:block" src="/club-logo/crevice.svg" alt="crevice" width={60} height={60} />
+        <Image className="block md:hidden" src="/club-logo/crevice.svg" alt="crevice" width={50} height={50} />
+        <Image className="hidden md:block" src="/club-logo/implude.svg" alt="implude" width={60} height={60} />
+        <Image className="block md:hidden" src="/club-logo/implude.svg" alt="implude" width={50} height={50} />
+        <div className="flex justify-center items-center">
+          <img className="hidden md:block w-[60px]" src="/club-logo/miven.png" alt="miven" />
+          <img className="block md:hidden w-[50px]" src="/club-logo/miven.png" alt="miven" />
+        </div>
+        <Image className="hidden md:block" src="/club-logo/mrmr.png" alt="mrmr" width={60} height={60} />
+        <Image className="block md:hidden" src="/club-logo/mrmr.png" alt="mrmr" width={50} height={50} />
+        <Image className="hidden md:block" src="/club-logo/noid.svg" alt="noid" width={60} height={60} />
+        <Image className="block md:hidden" src="/club-logo/noid.svg" alt="noid" width={50} height={50} />
+      </div>
     </div>
   );
 }

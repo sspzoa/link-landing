@@ -20,10 +20,13 @@ export default function Apply() {
         <strong className="text-link-purple font-[800]">Link</strong>와 함께하세요!
       </span>
       <Link
+        className="ease-in-out duration-500 hover:opacity-50"
         href="https://docs.google.com/forms/d/e/1FAIpQLSeX8Dv4_vwvSPMQGz88gOtg8DMKzOlu-qEMP8avtl0n-dQZdw/viewform?usp=sf_link"
         target="_blank"
-        rel="noreferrer">
-        <div ref={refs[2]} className="px-[40px] py-[12px] rounded-full border border-gray200 bg-link-white text-item">
+        rel="noreferrer noopener">
+        <div
+          ref={refs[2]}
+          className="px-[40px] py-[12px] rounded-full border border-gray200 bg-link-white text-item ease-in-out duration-500 hover:opacity-50">
           Demo Day 신청하기
         </div>
       </Link>

@@ -15,7 +15,7 @@ export default function Onboarding() {
             연결하다
           </span>
           <Link href="#apply">
-            <div className="px-[40px] py-[12px] rounded-full border border-[#19172633] bg-[#f9f8fe] text-item text-[#191726]">
+            <div className="px-[40px] py-[12px] rounded-full border border-[#19172633] bg-[#f9f8fe] text-item text-[#191726] ease-in-out duration-500 hover:opacity-50">
               Demo Day 신청하기
             </div>
           </Link>
