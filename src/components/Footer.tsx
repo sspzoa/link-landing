@@ -8,7 +8,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
   return (
     <div className="flex flex-row bg-gray1000 justify-center items-center px-[24px] py-[48px]">
-      <div className="w-full flex flex-col md:flex-row justify-between items-center max-w-[1200px] gap-[16px]">
+      <div className="w-full flex flex-col md:flex-row justify-between items-center max-w-[1400px] gap-[16px]">
         <Image className="dark:hidden" src="/link-logo/logo-full.svg" alt="link" width={120} height={40} />
         <Image className="hidden dark:block" src="/link-logo/logo-full-dark.svg" alt="link" width={120} height={40} />
         <div className="flex flex-col items-center md:items-end gap-[16px]">
