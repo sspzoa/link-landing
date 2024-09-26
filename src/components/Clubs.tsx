@@ -17,8 +17,9 @@ export default function Clubs() {
       <span ref={refs[0]} className="text-paragraph text-center">
         <strong className="text-link-purple">2024년 Link</strong>는{' '}
         <strong>
-          한국디지털미디어고등학교, 선린인터넷고등학교, 미림여자정보과학고등학교,
-          <br className="hidden md:block" /> 단국대학교 부속 소프트웨어고등학교 외 8곳 고등학교, 9개의 동아리
+          한국디지털미디어고등학교, 단국대학교부속소프트웨어고등학교, 부산소프트웨어마이스터고등학교,
+          <br className="hidden md:block" />
+          선린인터넷고등학교, 미림마이스터고등학교, 광주소프트웨어마이스터고등학교의 9개 동아리
         </strong>
         와 함께합니다.
       </span>
