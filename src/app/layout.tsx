@@ -33,7 +33,7 @@ export default function RootLayout({
         <link href="/link-logo/light-mode-favicon.svg" rel="icon" media="(prefers-color-scheme: light)" />
         <link href="/link-logo/dark-mode-favicon.svg" rel="icon" media="(prefers-color-scheme: dark)" />
       </head>
-      <body className={suit.variable}>
+      <body className={suit.className}>
         <Navbar />
         {children}
         <Footer />

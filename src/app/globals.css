@@ -14,10 +14,6 @@ html, body {
   color: var(--gray1000);
 }
 
-strong {
-  font-weight: normal;
-}
-
 :root {
   --gray100: #1917261a;
   --gray200: #19172633;
