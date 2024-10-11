@@ -86,7 +86,7 @@ export default function Information() {
       <span ref={refs[10]} className="text-gray500 text-paragraph text-nowrap">
         행사 후원
       </span>
-      <div ref={refs[11]} className="flex flex-row w-full gap-8 justify-center items-center">
+      <div ref={refs[11]} className="flex flex-col md:flex-row w-full gap-8 justify-center items-center">
         <img src="/sponsors/ansan.png" alt="ansan" width={256}/>
         <img src="/sponsors/hanbit.png" alt="hanbit" width={256}/>
         <img src="/sponsors/inflearn.png" alt="inflearn" width={256}/>
@@ -94,7 +94,7 @@ export default function Information() {
       <span ref={refs[12]} className="text-gray500 text-paragraph text-nowrap">
         장소 후원
       </span>
-      <div ref={refs[13]} className="flex flex-row w-full gap-8 justify-center items-center">
+      <div ref={refs[13]} className="flex flex-col md:flex-row w-full gap-8 justify-center items-center">
         <img src="/sponsors/dcamp.png" alt="ansan" width={256}/>
         <img src="/sponsors/front1.png" alt="hanbit" width={256}/>
       </div>
