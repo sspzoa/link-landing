@@ -72,7 +72,7 @@ export default function Schedule() {
             <span className="text-nowrap text-subtext block md:hidden">
               현직에 종사하시는 졸업생 선배들의 창업 경험 이야기
             </span>
-            <span className="text-nowrap text-subtext text-[#F96464]">(컨택 예정)</span>
+            <span className="text-nowrap text-subtext text-gray500">김캐디 CTO 최재림, 익스팬드 대표 김창환</span>
           </div>
         </div>
         <div ref={scheduleRefs[3]} className="w-full flex flex-col md:flex-row gap-[8px] md:gap-[30px] items-center">
