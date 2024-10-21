@@ -4,7 +4,7 @@ import './globals.css';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 
-const suit = localFont({
+const suitVariable = localFont({
   src: [
     {
       path: './fonts/SUIT-Variable.woff2',
@@ -33,7 +33,7 @@ export default function RootLayout({
         <link href="/link-logo/light-mode-favicon.svg" rel="icon" media="(prefers-color-scheme: light)" />
         <link href="/link-logo/dark-mode-favicon.svg" rel="icon" media="(prefers-color-scheme: dark)" />
       </head>
-      <body className={suit.className}>
+      <body className={`${suitVariable.variable} antialiased`}>
         <Navbar />
         {children}
         <Footer />
