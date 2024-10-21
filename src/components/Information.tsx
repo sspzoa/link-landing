@@ -87,6 +87,7 @@ export default function Information() {
         행사 후원
       </span>
       <div ref={refs[11]} className="flex flex-col md:flex-row w-full gap-8 justify-center items-center">
+        <img src="/sponsors/koef.png" alt="koef" width={256}/>
         <img src="/sponsors/ansan.png" alt="ansan" width={256}/>
         <img src="/sponsors/hanbit.png" alt="hanbit" width={256}/>
         <img src="/sponsors/inflearn.png" alt="inflearn" width={256}/>
