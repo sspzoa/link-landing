@@ -77,7 +77,7 @@ export default function Information() {
           </td>
           <td className="align-top">
               <span ref={refs[9]} className="text-gray1000 text-paragraph">
-                <strong>2024년 11월 16일 (토) 12:00 ~ 18:00</strong>
+                <strong>2024년 11월 16일 (토) 12:00 ~ 17:40</strong>
               </span>
           </td>
         </tr>

@@ -73,7 +73,7 @@ export default function Schedule() {
             <span className="text-nowrap text-subtext block md:hidden">
               현직에 종사하시는 졸업생 선배들의 창업 경험 이야기
             </span>
-            <span className="text-nowrap text-subtext text-gray500">김캐디 CTO 최재림, 익스팬드 대표 김창환</span>
+            <span className="text-nowrap text-subtext text-gray500">최재림 <span className='text-item'>(김캐디 Co-founder/CTO)</span>, 김창환 <span className='text-item'>(익스팬드 대표이사)</span></span>
           </div>
         </div>
         <div ref={scheduleRefs[3]} className="w-full flex flex-col md:flex-row gap-[8px] md:gap-[30px] items-center">
@@ -102,7 +102,7 @@ export default function Schedule() {
         </div>
         <div ref={scheduleRefs[5]} className="w-full flex flex-col md:flex-row gap-[8px] md:gap-[30px] items-center">
           <div className="flex flex-col items-center md:items-start gap-[8px]">
-            <span className="text-nowrap text-subtext text-gray500">17:30 ~ 17:45</span>
+            <span className="text-nowrap text-subtext text-gray500">17:30 ~ 17:40</span>
             <span className="text-nowrap text-paragraph">
               <strong>폐회식 및 단체사진 촬영</strong>
             </span>
