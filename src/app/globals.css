@@ -9,6 +9,7 @@
 }
 
 html, body {
+    font-family: var(--font-suit);
   scroll-behavior: smooth;
   background-color: var(--link-white);
   color: var(--gray1000);
