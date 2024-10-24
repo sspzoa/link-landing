@@ -24,17 +24,6 @@ export default function Clubs() {
         </strong>
         와 함께합니다.
       </span>
-      <div className="flex justify-center items-center">
-        <Link
-          className="ease-in-out duration-500 hover:opacity-50"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSe2eLgLzZA0Za2OHMpinIu4ng1ODZJFPxQd2F0RWxXgT3_8jw/viewform?usp=sf_link"
-          target="_blank"
-          rel="noreferrer noopener">
-          <div ref={refs[1]} className="px-[40px] py-[12px] rounded-full border border-gray200 bg-link-white text-item">
-            Link 연합 동아리 신청하기
-          </div>
-        </Link>
-      </div>
       <div ref={refs[2]} className="max-w-4xl flex flex-wrap justify-center items-center gap-8 md:gap-16">
         <img className="w-12 md:w-16" src="/club-logo/LUNA.svg" />
         <img className="w-12 md:w-16" src="/club-logo/noid.png" />
